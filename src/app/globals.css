@@ -3,6 +3,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* text size*/
+  --26p: 26px;
+  --24p: 24px;
+  --20p: 20px;
+  --18p: 18px;
+  --16p: 16px;
+  --14p: 14px;
+  --12p: 12px;
+}
+
+html {
+  @apply transition-colors duration-300;
 }
 
 @theme inline {
