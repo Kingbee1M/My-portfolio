@@ -42,14 +42,14 @@ export default function Intro() {
                     <FaXTwitter  className="text-2xl" />
                 </a>
             </div>
-            <Image
+            {/* <Image
             src="/images/icons8-laptop.gif"
             alt="Laptop Icon"
             width={80}
             height={80}
             unoptimized={true}
             className=" absolute right-5 bottom-1 w-16 transition-transform hover:scale-110" 
-            />
+            /> */}
         </div>
     )
 }   
