@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="flex flex-col items-center justify-center h-auto gap-7 lg:w-9/10 lg:items-center lg:justify-center dark:text-black">
             <div className="rounded-3xl bg-gray-300 dark:text-white p-2">ABOUT ME</div>
-            <h1 className="text-[20px] dark:text-white lg:text-[25px]">Here are some information about myself</h1>
+            <h1 className="text-[18px] dark:text-white lg:text-[25px]">Here are some information about myself</h1>
             <div className=" flex flex-col justify-center items-center w-4/5 lg:w-full gap-10 lg:gap-0 mt-10 lg:mt-0 lg:flex-row lg:items-center lg:justify-between">
                 <div className="  border-l-gray-300 border-b-gray-300 border-l-20 border-b-20">
                 <Image
