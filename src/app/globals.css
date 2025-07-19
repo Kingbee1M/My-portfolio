@@ -1,8 +1,18 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+  /* color variables */
   --background: #ffffff;
   --foreground: #171717;
+  --grey: #f9f9fb;
+  --steel-Blue: #4682B4;
+  --sky-Blue: #87CEEB;
+  --deep-Blue: #101726;
+  --light-Blue: #1f2937;
+  
+
   /* text size*/
   --26p: 26px;
   --24p: 24px;
@@ -11,6 +21,11 @@
   --16p: 16px;
   --14p: 14px;
   --12p: 12px;
+  
+  /* font families */
+  --Merriweather-sans: 'Merriweather';
+  --Roboto-sans: 'Roboto', sans-serif;
+
 }
 
 html {
@@ -34,5 +49,5 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--Roboto-sans);
 }
