@@ -11,7 +11,7 @@ const jobs = [
         ]
     },
     {
-        job: "HMG Internship, Remote—Front-End Developer Intern",
+        job: "HNG Internship, Remote—Front-End Developer Intern",
         description: [
             "Designed and developed dynamic user interfaces tailored to client requirements.",
             "Integrated web applications with modern frameworks and tools like Next.js, Tailwind CSS, and TypeScript.",
